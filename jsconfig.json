@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "types": ["three"]
+  },
+  "include": ["**/*.js", "**/*.html"],
+  "exclude": [
+    "node_modules",
+    "**/node_modules/*"
+  ]
+}
